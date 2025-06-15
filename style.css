@@ -844,7 +844,14 @@ hr {
     height: 50px;
   }
 }
-
+@media (max-width:380px){
+  .logo img{
+    height: 40px;
+  }
+  .nav-list img{
+    height: 20px;
+  }
+}
 /* navbar responsiveness done */
 
 /* main head responsivee ness */
@@ -1738,7 +1745,7 @@ font-size: 15px;
   margin-left: 25px;
 }
 }
-@media (max-width:360px){
+@media (max-width:362px){
   .line{
     display: none;
   }
@@ -1817,5 +1824,13 @@ padding-top: 30px;
 @media (max-height:700px){
  .shop-categories{
     height: 120vh;
+  }
+}
+@media (max-height:750px){
+ .shop-categories{
+    height: 130vh;
+  }
+  .follow-image{
+    height: 60vh;
   }
 }
