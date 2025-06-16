@@ -1157,6 +1157,11 @@ hr {
   font-size: 11px;
 }
 }
+@media (max-width:385px){
+  .follow-image{
+  height: 50vh;
+}
+}
 /* velin discover responsiveness */
 
 @media (max-width: 1772px) {
